@@ -16,11 +16,15 @@ getClass(),java.lang.Object#getClass()Ljava/lang/Class;5
 notifyAll()java.lang.Object#notifyAll()V"
 wait()java.lang.Object#wait()V*
 
-hashCode()java.lang.Object#hashCode()I™
-blockudoku.Tablerojava.lang.Object(
-<init>()blockudoku.Tablero#<init>()VN
-jugar(IILblockudoku/Pieza;)/blockudoku.Tablero#jugar(IILblockudoku/Pieza;)ZQ
-generarPiezaRandom()9blockudoku.Tablero#generarPiezaRandom()Lblockudoku/Pieza;2
+hashCode()java.lang.Object#hashCode()Iì
+blockudoku.Tablerojava.lang.Object4
+validarFila(I)"blockudoku.Tablero#validarFila(I)Z6
+bloqueGanador()#blockudoku.Tablero#bloqueGanador()Z(
+<init>()blockudoku.Tablero#<init>()V>
+llenarConPieza(IIC)'blockudoku.Tablero#llenarConPieza(IIC)VH
+validarSubCUadrado(IIII),blockudoku.Tablero#validarSubCUadrado(IIII)Z@
+generarPiezaRandom()(blockudoku.Tablero#generarPiezaRandom()C:
+validarColumna(I)%blockudoku.Tablero#validarColumna(I)Z2
 tableroSize()!blockudoku.Tablero#tableroSize()I6
 llenarTablero()#blockudoku.Tablero#llenarTablero()V8
 dibujarTablero()$blockudoku.Tablero#dibujarTablero()V(
@@ -265,9 +269,7 @@ doubles(J):java.util.Random#doubles(J)Ljava/util/stream/DoubleStream;*
 
 nextLong()java.util.Random#nextLong()Jh
 )writeObject(Ljava/io/ObjectOutputStream;);java.util.Random#writeObject(Ljava/io/ObjectOutputStream;)V.
-resetSeed(J)java.util.Random#resetSeed(J)VN
-blockudoku.Piezajava.lang.Object(
-	<init>(C)blockudoku.Pieza#<init>(C)V¥
+resetSeed(J)java.util.Random#resetSeed(J)V¥
 blockudoku.Blockudokujava.lang.Object+
 <init>()blockudoku.Blockudoku#<init>()VM
 main([Ljava/lang/String;)0blockudoku.Blockudoku#main([Ljava/lang/String;)VÈ

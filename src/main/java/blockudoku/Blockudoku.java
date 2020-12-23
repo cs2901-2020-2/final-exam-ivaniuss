@@ -10,22 +10,26 @@ public class Blockudoku {
         Scanner myObj = new Scanner(System.in);
         String restart = null;
         Tablero tablero = new Tablero();
+        tablero.dibujarTablero();
         while(win == false){
-            tablero.dibujarTablero();
-            System.out.println("Enter x if you want re-start the game");
+
+            System.out.print("Enter x if you want re-start the game or press enter to continue");
             restart = myObj.nextLine();
             if(restart == "x"){
                 tablero.llenarTablero();
             }
             else{
-                int posX;
-                int posY;
-
-                Pieza pieza = new Pieza();
-                System.out.println("Enter pos x and pos y");
-                String posx = myObj.nextLine();
-                String posY = myObj.nextLine();
-
+                System.out.println("Enter the pos x");
+                int posX = myObj.nextInt();
+                System.out.println("Enter the pos y");
+                int posY = myObj.nextInt();
+                char positionPiece = tablero.generarPiezaRandom();
+                tablero.llenarConPieza(posX, posY, positionPiece);
+                tablero.dibujarTablero();
+                if(tablero.bloqueGanador()){
+                    System.out.println("Usted ha ganado");
+                    win = true;
+                }
             }
         }
 

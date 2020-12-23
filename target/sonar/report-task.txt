@@ -3,5 +3,5 @@ projectKey=cs2901-2020-2_final-exam-ivaniuss
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.15878
 dashboardUrl=https://sonarcloud.io/dashboard?id=cs2901-2020-2_final-exam-ivaniuss
-ceTaskId=AXaQjC5qIsnhZMyYDxua
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXaQjC5qIsnhZMyYDxua
+ceTaskId=AXaQynaHALsWP098zLqa
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXaQynaHALsWP098zLqa

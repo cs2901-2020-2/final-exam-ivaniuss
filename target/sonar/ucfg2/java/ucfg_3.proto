@@ -1,29 +1,30 @@
 
-/blockudoku.Tablero#jugar(IILblockudoku/Pieza;)Zd
-Z/mnt/c/Users/ivane/utec/software/final-exam-ivaniuss/src/main/java/blockudoku/Tablero.java   ("2"1*≥
-2d
-Z/mnt/c/Users/ivane/utec/software/final-exam-ivaniuss/src/main/java/blockudoku/Tablero.java!# !((¢
-ü
-d
-Z/mnt/c/Users/ivane/utec/software/final-exam-ivaniuss/src/main/java/blockudoku/Tablero.java!# !((
-%0char[][]"__id*!*
-blockudoku.Tablero"
-tableù
-ö
-d
-Z/mnt/c/Users/ivane/utec/software/final-exam-ivaniuss/src/main/java/blockudoku/Tablero.java!# !(.
-%1char[]"
-__arrayGet*
-
-%0char[][]*
-""*
-1*Ÿ
+(blockudoku.Tablero#generarPiezaRandom()Cd
+Z/mnt/c/Users/ivane/utec/software/final-exam-ivaniuss/src/main/java/blockudoku/Tablero.java! !(""1*Ñ
 1d
-Z/mnt/c/Users/ivane/utec/software/final-exam-ivaniuss/src/main/java/blockudoku/Tablero.java$ $("n
+Z/mnt/c/Users/ivane/utec/software/final-exam-ivaniuss/src/main/java/blockudoku/Tablero.java" "($ìê
 d
-Z/mnt/c/Users/ivane/utec/software/final-exam-ivaniuss/src/main/java/blockudoku/Tablero.java$ $(
-"":
-"":
-"":
-piezablockudoku.PiezaB
+Z/mnt/c/Users/ivane/utec/software/final-exam-ivaniuss/src/main/java/blockudoku/Tablero.java" "("
+%0java.util.Random"java.util.Random•
+¢
+d
+Z/mnt/c/Users/ivane/utec/software/final-exam-ivaniuss/src/main/java/blockudoku/Tablero.java" "($
+%1"java.util.Random#<init>()V*
+
+%0java.util.Random•
+¢
+d
+Z/mnt/c/Users/ivane/utec/software/final-exam-ivaniuss/src/main/java/blockudoku/Tablero.java" "(%
+randomjava.util.Random"__id*
+
+%0java.util.Random¬ø
+d
+Z/mnt/c/Users/ivane/utec/software/final-exam-ivaniuss/src/main/java/blockudoku/Tablero.java# #()	
+%2int"java.util.Random#nextInt(I)I*
+
+randomjava.util.Random*22
+nextInt(I)"n
+d
+Z/mnt/c/Users/ivane/utec/software/final-exam-ivaniuss/src/main/java/blockudoku/Tablero.java% %( 
+""B
 blockudoku.Tablero
